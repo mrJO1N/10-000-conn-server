@@ -1,6 +1,6 @@
 {
-  "name": "simple-ts-node",
-  "version": "0.0.0",
+  "name": "conn-10000",
+  "version": "0.1.0",
   "description": "",
   "main": "src/main.ts",
   "type": "module",
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.10.0",
     "rimraf": "^6.0.1",
@@ -20,7 +21,13 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "redis": "^4.6.15",
+    "sequelize": "^6.37.3",
+    "umzug": "^3.8.1"
   }
 }
